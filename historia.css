@@ -1,0 +1,43 @@
+body {
+    margin:0em;
+    }
+    
+    .cover{
+        height: 4000xp;
+        background-image: url(fotos/fondo.jpg);
+        color: white;
+        background-size: cover;
+        background-position:center;
+        background-color: rgba(0.0.0.0.5);
+        background-blend-mode: darken;
+    }
+    
+    .card{
+      border:0  !important;
+      box-shadow: 0 4px 6px -lpx rgba(0.0.0.0.1), 0 2px 4px -lpx rgba(0.0.0.0.06);
+    
+    }
+    .card1{
+        background-image: url(fotos/rsz_1200px-lakerslgo.jpg);
+    }
+    
+    .wrap{
+        width: 1100px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tarjeta-wrap{
+        margin: 10px;
+    
+    }
+    
+    
+    
+    .tarjeta{
+        width: 300px;
+        height: 350px;
+        background:rgba(0.0.0.0.5)
+    
+    }
